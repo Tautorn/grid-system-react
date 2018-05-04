@@ -11,7 +11,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <Grid>
+        <h1>Example 1</h1>
+        <Grid cols={[2, 2, 4, 6]} rows={["30px", "50px", "70px", "100px"]}>
             <div>One</div>
             <div>Two
               <p>I have some more content in.</p>
@@ -22,6 +23,10 @@ class App extends Component {
             <div>Four</div>
             <div>Five</div>
             <div>Six</div>
+            <div>Seven</div>
+            <div>Eight</div>
+            <div>Nine</div>
+            <div>Ten</div>
         </Grid>
       </div>
     );
